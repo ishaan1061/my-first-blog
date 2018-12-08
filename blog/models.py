@@ -17,5 +17,5 @@ class Post(models.Model):
 
     def small_text(self):
         text2 = str(self.text)
-        return text2 [0:80] + "......."
+        return text2 [0:300] + "......."
 
